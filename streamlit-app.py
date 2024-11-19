@@ -13,7 +13,7 @@ st.write(data.head()
  chart = alt.chart (data). mark_bar(), encode( x='sepallenght', y='sepalwidth')
 st.altair_chart (chart, use_container_width= True)
 chart = alt.chart( data),mark_point().encode(x='sepallenght', y='sepalwidth')
-st.altair_char(chart, use contenair_width=True
+st.altair_chart(chart, use contenair_width=True
 
                                                       
 
