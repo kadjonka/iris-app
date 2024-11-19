@@ -1,6 +1,7 @@
 import streamlit as st
 import pandas as pd 
-
+#titre
+st.title('ceci est mon dashboard')
 # Charger les données
 data = pd.read_csv('Iris.csv', delimiter=';')
 
